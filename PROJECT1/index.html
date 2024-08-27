@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+<section class="form-container">
+    <div class="container">
+    
+    <form action="processa.php" method="get">
+        <center>
+            <h1>Formulário</h1>
+        </center>
+
+        <fieldset >
+            
+            <legend><strong>Dados Pessoais</strong></legend>
+        
+            <div>
+                <label class="label1" for="Nome"> Nome:</label>
+                <input type="text" name="Nome" id="idNome" size="30">
+            
+            </div>
+            <div>
+                <label class="label1" for="Endereço">Endereço:</label>
+                <input type="text" name="Endereço" id="idEndereço" size="30">
+            </div>
+
+            <div>
+                <label class="label1" for="Cidade"> Cidade:</label>
+                <input type="text" name="Cidade" id="idCidade" size="30">
+            </div>
+        
+            <div>
+                <label class="label1" for="Estado">Estados:</label>                
+                <select name="Estado" id="idEstado">
+                    <option value=""></option>
+                    <option value="Distrito Federal">Distrito Federal</option>
+                    <option value="São Paulo">São Paulo</option>
+                    <option value="Rio de Janeiro">Rio de Janeiro</option>
+                    <option value="Bahia">Bahia</option>
+                    <option value="Amazonas">Amazonas</option>
+                </select>
+            </div>
+   
+        </fieldset>
+ <br>
+        <fieldset>
+        
+            <legend><strong>Dados Profissionais</strong></legend>
+
+            <div>
+                <label class="label2" for="Natureza do Cargo">Natureza do Cargo</label>
+<br>
+                <input type="radio" name="Cargo" id="idCargo" value="Gerência"> 
+                <label>Gerência</label>
+
+                <input type="radio" name="Cargo" id="idCargo" value="Financeiro">
+                <label>Financeiro</label>
+
+                <input type="radio" name="Cargo" id="idCargo" value="Recepção">
+                <label>Recepção</label>
+
+                <input type="radio" name="Cargo" id="idCargo" value="Administrativo">
+                <label>Administrativo</label>
+
+                <input type="radio" name="Cargo" id="idCargo" value="Juridico">
+                <label>Juridico</label>
+
+            </div>
+<br>
+            <div>
+                <label for="Área">Área de interesse</label>
+<br>
+                <input type="checkbox" name="Area" id="idArea" value="Computação">
+                <label>Computação</label>
+
+                <input type="checkbox" name="Area" id="idArea" value="Biologia">
+                <label>Biologia</label>
+
+                <input type="checkbox" name="Area" id="idArea" value="Meio Ambiente">
+                <label>Meio Ambiente</label>
+
+                <input type="checkbox" name="Area" id="idArea" value="Engenharia">
+                <label>Engenharia</label>
+
+                <input type="checkbox" name="Area" id="idArea" value="História">
+                <label>História</label>
+
+            </div>
+<br>
+            <div>
+                <label for="Mini-curriculo">Mini-curriculo:</label>
+                <textarea name="Curriculo" id="idCurriculo" cols="45" rows="7"></textarea>
+
+            </div>
+
+         </fieldset>     
+<br>
+            <dIV>
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </dIV>
+    
+
+    
+
+</form> 
+
+    </div>
+</section>
+
+</body>
+</html>
